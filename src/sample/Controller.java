@@ -3,6 +3,7 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -28,19 +29,19 @@ public class Controller {
     private ListView<?> Lista;
 
     @FXML
-    private TextField imeL;
+    private Label imeL;
 
     @FXML
-    private TextField prezimeL;
+    private Label prezimeL;
 
     @FXML
-    private TextField mailL;
+    private Label mailL;
 
     @FXML
-    private TextField korisnickoL;
+    private Label korisnickoL;
 
     @FXML
-    private TextField lozinkaL;
+    private Label lozinkaL;
 
     @FXML
     private Button krajBtn;

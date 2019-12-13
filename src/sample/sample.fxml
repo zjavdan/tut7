@@ -33,11 +33,11 @@
                   <TextField fx:id="ime" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="1" />
                   <TextField fx:id="kime" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="4" />
                   <TextField fx:id="lozinka" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="5" />
-                  <TextField fx:id="imeL" text="Ime:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                  <TextField fx:id="prezimeL" text="Prezime:" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                  <TextField fx:id="mailL" text="E-mail:" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                  <TextField fx:id="korisnickoL" text="Korisnicko ime:" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                  <TextField fx:id="lozinkaL" text="Lozinka:" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Label fx:id="imeL" text="Ime:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Label fx:id="prezimeL" text="Prezime:" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Label fx:id="mailL" text="E-mail:" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Label fx:id="korisnickoL" text="Korisnicko ime:" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Label fx:id="lozinkaL" text="Lozinka:" GridPane.columnIndex="2" GridPane.rowIndex="5" />
                   <Button fx:id="dodajBtn" mnemonicParsing="false" text="Dodaj" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6"/>
                   <Button fx:id="krajBtn" mnemonicParsing="false" onAction="#closeButtonAction" text="Kraj" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6"/>
          </children>
